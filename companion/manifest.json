@@ -1,0 +1,27 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"id": "sierra-video-protocol-tcp",
+	"name": "Sierra Video Protocol TCP",
+	"shortname": "SierraVideo",
+	"description": "Controls Sierra Video routing switchers via TCP with support for multi-level routing, feedback, and presets",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-sierra-video-protocol-tcp.git",
+	"bugs": "https://github.com/bitfocus/companion-module-sierra-video-protocol-tcp/issues",
+	"maintainers": [
+		{
+			"name": "Companion User",
+			"email": "user@example.com"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Sierra Video",
+	"products": ["Routing Switcher", "Lassen", "Tahoe", "Yosemite", "Aspen"],
+	"keywords": ["sierra-video", "routing-switcher", "video-router", "broadcast", "av-control"]
+}
